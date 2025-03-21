@@ -111,8 +111,8 @@ elif n1 == n2 != n3 or n1 == n3 != n2 or n2 == n3 != n1:
     print("Seu triângulo é isócele")
 else:
     print("Seu triângulo é escaleno")
-'''
 
+Ex11
 angulo = int(input("Qual o grau de um dos lados do seu triângulo?:"))
 if angulo == 90:
     print("Seu triângulo é retângulo")
@@ -122,3 +122,4 @@ elif angulo < 90 and angulo > 0:
     print("Seu triângulo é acutângulo")
 else:
     print("Sua forma geométrica não é um triângulo")
+    '''
