@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript</title>
+    <script>
+    function minha_funcao() {
+            document.getElementById("demo1").innerHTML = "Meu programa JavaScript"
+        }
+    </script>
 </head>
 <body>
     <h1>Olá Mundo!!!</h1>
     <script src="./WebDev01.js"></script>
+    <br>
+    <h2>Java script no corpo do HTML</h2>
+    <p id= "demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Meu programa JavaScript"
+    </script> 
+    <p id="demo1">Um parágrafo</p>
+    <button type="button" onclick="minha_funcao()">Clique aqui</button>
 </body>
 </html>
