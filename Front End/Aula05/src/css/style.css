@@ -1,0 +1,59 @@
+/*
+div {
+    overflow: hidden;
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+
+    width: 100px;
+    height: 110px;
+
+    margin: 20px 20px
+}
+
+div{
+    overflow: scroll;
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+
+    width: 100px;
+    height: 110px;
+
+    margin: 5px 8px 5px 8px;
+    padding: 6px 9px 6px 9px;
+    border: dotted
+
+}
+
+p {
+    display: inline;
+    background-color: yellow;
+}
+
+span{
+    display: block;
+    background-color: grey;
+}  */
+
+p {
+    font-size: 35px;
+}
+div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.azul {
+    border: solid 4px blue;
+    background-color: lightblue;
+}
+.amarelo {
+    border: solid 4px red;
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
