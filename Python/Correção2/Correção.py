@@ -216,5 +216,21 @@ while True:
 #EXERCÍCIO 12 (Ver o exercício 5)
 
 -------------------------------------------------------------------------------
-'''
+
 #EXERCÍCIO 13
+
+salario = 1000
+ano = 1995
+taxa_inicial = 0.015
+while ano < 2000:
+    taxa = 1 + taxa_inicial
+    taxa_inicial *= 2
+    salario *= taxa
+    ano += 1
+print(f"{salario:.2f}")
+
+-------------------------------------------------------------------------------
+
+'''
+
+#EXERCÍCIO 14
