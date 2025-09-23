@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+</head>
+<body>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 ease-in-out">
+    Clique Suave
+    </button>
+
+    <br><br>
+
+    <div class="w-10 h-10 bg-blue-500 rounded-full animate-fade"></div>
+    
+    <br>
+    
+    <div class="p-4 bg-green-300 rounded animate-fade w-20">Fade</div>
+    <button class="animate-wiggle">Treme</button>
+    <div class="animate-wiggle w-40 h-10 bg-green-500 rounded-full"></div>
+    <div class="animate-fade w-10 h-10 bg-yellow-400 rounded-full"></div>
+    
+    <br>
+
+    <div class="opacity-0 transition-opacity duration-700" data-observe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam error aliquam excepturi expedita in? Consectetur temporibus excepturi laudantium rerum eaque molestiae soluta nam, culpa, sit, dolor aliquam tempore repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium similique cumque repellendus et aliquam odit, sint maxime magni nemo? Excepturi molestias sunt quibusdam eum, commodi ad ut accusantium reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi fugiat iure cumque quod veniam labore dolore repellat hic fugit rem ullam laboriosam, cum temporibus porro aspernatur? Quo, vitae iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente harum soluta expedita, quisquam quas atque modi quam ipsam esse eligendi vitae itaque corporis, ullam ea eaque id nobis natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, itaque tempore asperiores dolorem ratione voluptates atque nemo nesciunt perferendis fuga alias et earum debitis eligendi vitae iste, accusamus aut quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam error aliquam excepturi expedita in? Consectetur temporibus excepturi laudantium rerum eaque molestiae soluta nam, culpa, sit, dolor aliquam tempore repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium similique cumque repellendus et aliquam odit, sint maxime magni nemo? Excepturi molestias sunt quibusdam eum, commodi ad ut accusantium reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi fugiat iure cumque quod veniam labore dolore repellat hic fugit rem ullam laboriosam, cum temporibus porro aspernatur? Quo, vitae iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente harum soluta expedita, quisquam quas atque modi quam ipsam esse eligendi vitae itaque corporis, ullam ea eaque id nobis natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, itaque tempore asperiores dolorem ratione voluptates atque nemo nesciunt perferendis fuga alias et earum debitis eligendi vitae iste, accusamus aut quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam error aliquam excepturi expedita in? Consectetur temporibus excepturi laudantium rerum eaque molestiae soluta nam, culpa, sit, dolor aliquam tempore repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium similique cumque repellendus et aliquam odit, sint maxime magni nemo? Excepturi molestias sunt quibusdam eum, commodi ad ut accusantium reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi fugiat iure cumque quod veniam labore dolore repellat hic fugit rem ullam laboriosam, cum temporibus porro aspernatur? Quo, vitae iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente harum soluta expedita, quisquam quas atque modi quam ipsam esse eligendi vitae itaque corporis, ullam ea eaque id nobis natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, itaque tempore asperiores dolorem ratione voluptates atque nemo nesciunt perferendis fuga alias et earum debitis eligendi vitae iste, accusamus aut quae?</p>
+    </div>
+
+    <script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-100');
+        }
+        });
+    });
+    document.querySelectorAll('[data-observe]').forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
