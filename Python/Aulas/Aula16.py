@@ -29,7 +29,7 @@ def ordena_lista(lista):
         print (lista)
 
 #NUMERO SECRETO
-
+'''
 def acha_raiz(num):
     while True:
         try:
@@ -47,4 +47,41 @@ def acha_raiz(num):
             break
     return
 
-acha_raiz(25)
+acha_raiz(25)'''
+
+
+def selection_sort_melhorzinho(lista):
+    for i in range(len(lista)):
+        ind = indice_menor(lista[i:]) + i #Pegue a lista e corte i elementos, passe a partir de i
+        aux = lista[i]
+        lista[i] = lista[ind]
+        lista[ind] = aux
+        print(lista)
+        print()
+    return
+lista = [5,0,4,1,2,7,6,3]
+selection_sort_melhorzinho(lista)
+print(lista)
+
+def bubble_sort(lista):
+    for i in range(len(lista)):
+        trocas = 0
+        for j in range(len(lista) - i - 1): #o ultimo par é o ultimo com o penultimo, não existe sucessor, por isso o "-1"
+            if lista[j] > lista[j + 1]:
+                aux = lista[j]
+                lista[j] = lista[j + 1]
+                lista[j + 1] = aux
+                trocas += 1
+        if trocas == 0:
+            break
+
+    return
+
+lista = [5,0,4,1,2,7,6,3]
+bubble_sort(lista)
+print( )
+
+
+
+
+
