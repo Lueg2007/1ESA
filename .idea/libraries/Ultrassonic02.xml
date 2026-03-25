@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Ultrassonic02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Arduino/Aula03/Ultrassonic02.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula04/Aula04.iml" filepath="$PROJECT_DIR$/Java/Aula04/Aula04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula05/Aula05.iml" filepath="$PROJECT_DIR$/Java/Aula05/Aula05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula06/Aula06.iml" filepath="$PROJECT_DIR$/Java/Aula06/Aula06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula07/Aula07.iml" filepath="$PROJECT_DIR$/Java/Aula07/Aula07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula08/Aula08.iml" filepath="$PROJECT_DIR$/Java/Aula08/Aula08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula09/Aula09.iml" filepath="$PROJECT_DIR$/Java/Aula09/Aula09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROGAMAÇÃO.iml" filepath="$PROJECT_DIR$/PROGAMAÇÃO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula01/Projeto01/Projeto01.iml" filepath="$PROJECT_DIR$/Java/Aula01/Projeto01/Projeto01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Aula01/Projeto03/Projeto03.iml" filepath="$PROJECT_DIR$/Java/Aula01/Projeto03/Projeto03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Tarefas/Tarefa01/Tarefa01.iml" filepath="$PROJECT_DIR$/Java/Tarefas/Tarefa01/Tarefa01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Tarefas/Tarefa02/Tarefa02.iml" filepath="$PROJECT_DIR$/Java/Tarefas/Tarefa02/Tarefa02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Tarefas/Tarefa03/Tarefa03.iml" filepath="$PROJECT_DIR$/Java/Tarefas/Tarefa03/Tarefa03.iml" />
+    </modules>
+  </component>
+</project>

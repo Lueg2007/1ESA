@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DHT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Arduino/Aula04/DHT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
