@@ -1,0 +1,4 @@
+//No diagrama de classes: public é o "+", private é o "-" e protected é o "#"
+//Classe > Atributo > Métod (Reutilização de código)
+//Métod possui 2 tipos, com ou sem retorno. return, float, int > Com retorno. void > Sem retorno
+Volume ++ sempre soma mais 1 além dos + que ja tem
